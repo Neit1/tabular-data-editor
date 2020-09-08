@@ -1,0 +1,33 @@
+.colorPickerPalette {
+    position: relative;
+    z-index: 100;
+}
+
+.colorPickerContainer {
+    height: 30px;
+    width: 100%;
+}
+
+.colorPickerCover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.colorPickerText {
+    height: 90%;
+    width: 70%;
+    border: none;
+    text-align: center;
+    float: right;
+}
+
+.colorPickerColorBackground {
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
